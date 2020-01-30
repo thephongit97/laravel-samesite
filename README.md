@@ -1,7 +1,7 @@
 # Laravel SameSite incompatible clients Middleware
 
-<a href="https://github.com/skorp/laravel-samesite-incompatible-clients/blob/master/LICENSE"><img src="https://img.shields.io/github/license/skorp/laravel-samesite-incompatible-clients"></a> 
-![Laravel](https://github.com/skorp/laravel-samesite-incompatible-clients/workflows/Laravel-Tests/badge.svg)
+<a href="https://github.com/thephongit97/laravel-samesite-incompatible-clients/blob/master/LICENSE"><img src="https://img.shields.io/github/license/thephongit97/laravel-samesite-incompatible-clients"></a> 
+![Laravel](https://github.com/thephongit97/laravel-samesite-incompatible-clients/workflows/Laravel-Tests/badge.svg)
 
 ## About
 Some user agents are known to be incompatible with the `SameSite=None` attribute. <br>
@@ -13,7 +13,7 @@ This middleware for Laravel will try to determine and overwrite the Cookie value
 You can install this package via composer using this command:
 
 ```bash
-composer require "skorp/laravel-samesite-incompatible-clients"
+composer require "thephongit97/laravel-samesite-incompatible-clients"
 ```
 
 Service provider will register itself.
