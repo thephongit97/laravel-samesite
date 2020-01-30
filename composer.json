@@ -1,5 +1,5 @@
 {
-    "name": "secomapp/laravel-samesite-incompatible-clients",
+    "name": "thephongit97/laravel-samesite-incompatible-clients",
     "description": "Some user agents are known to be incompatible with the `SameSite=None` attribute. This middleware will try to determine and overwrite the Cookie value.",
     "keywords": ["laravel", "cookies", "samesite", "samesite cookie","safari"],
     "require": {
@@ -14,7 +14,7 @@
         }
     ],
     "support": {
-        "issues": "https://gitlab.com/secomapp/development/laravel-samesite-incompatible-clients/issues"
+        "issues": "https://gitlab.com/thephongit97/development/laravel-samesite-incompatible-clients/issues"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.0",
@@ -22,18 +22,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Secomapp\\": "src/"
+            "thephongit97\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Secomapp\\Tests\\": "tests/"
+            "thephongit97\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "secomapp\\SameSite\\SameSiteIncompatibleClientsProvider"
+                "thephongit97\\SameSite\\SameSiteIncompatibleClientsProvider"
             ]
         }
     },
