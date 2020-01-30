@@ -1,5 +1,5 @@
 {
-    "name": "thephongit97/laravel-samesite-incompatible-clients",
+    "name": "thephongit97/laravel-samesite-clients",
     "description": "Some user agents are known to be incompatible with the `SameSite=None` attribute. This middleware will try to determine and overwrite the Cookie value.",
     "keywords": ["laravel", "cookies", "samesite", "samesite cookie","safari"],
     "require": {
