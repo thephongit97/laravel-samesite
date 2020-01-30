@@ -4,7 +4,7 @@
     "keywords": ["laravel", "cookies", "samesite", "samesite cookie","safari"],
     "require": {
         "php": ">=7.1",
-        "laravel/framework": ">=5.0",
+        "laravel/framework": ">=6.0",
         "skorp/detect-incompatible-samesite-useragents": "^1.0"
     },
     "license": "MIT",
